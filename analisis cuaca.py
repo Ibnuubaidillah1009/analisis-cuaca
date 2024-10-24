@@ -82,7 +82,7 @@ def main():
     Fungsi utama yang meminta input nama kota dan menampilkan hasil analisis cuaca.
     """
     kota = input('Masukkan nama kota: ')
-    api_key = '001664eaec451b2c1b961a609c2de8ee'  # Ganti dengan kunci API Anda
+    api_key = '001664eaec451b2c1b961a609c2de8ee'  # change with your API
 
     data = ambil_data_cuaca(kota, api_key)  # Mengambil data cuaca
     df = analisis_cuaca(data)  # Menganalisis data cuaca
